@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.riga:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.colonna {
+    float: left;
+    margin: 0% 2%;
+    width: 46%;
+    text-align: justify;
+}
